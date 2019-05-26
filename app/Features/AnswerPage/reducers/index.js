@@ -1,4 +1,3 @@
-// import _ from 'lodash';
 import ConnectReducers from '../../../helpers/ConnectReducers';
 import { fetchQuestionReducer } from '../actions/fetchQuestion';
 import { fetchAnswersReducer } from '../actions/fetchAnswers';

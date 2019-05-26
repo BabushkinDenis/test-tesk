@@ -9,5 +9,8 @@ module.exports = {
         "SERVER_URL": true,
         "it": true,
         "navigator": true
-      }
+      },
+    "rules":{
+      "linebreak-style": 0
+    }
 };
