@@ -1,0 +1,67 @@
+
+
+
+
+
+
+.ex2-question {
+  margin: 20px 0 40px;
+  padding: 20px 0;
+  border-top: 1px #eee solid;
+  border-bottom: 1px #eee solid;
+
+  &__label {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  &__input {
+    margin-bottom: 20px;
+    input-text {
+      width: 100%;
+    }
+  }
+
+  &__answer {
+    margin-bottom: 30px;
+    label {
+      margin-bottom: 10px;
+      margin-right: 20px;
+    }
+  }
+}
+
+.ex2-table {
+  border-collapse: collapse;
+  width: 100%;
+  thead th {
+    text-align: left;
+    padding: 10px 20px;
+    border-bottom: 1px #ccc solid;
+    background-color: #eee;
+    font-size: 16px;
+  }
+  tbody th {
+    text-align: left;
+    padding: 8px 20px;
+    border-bottom: 1px #eee solid;
+    font-size: 14px;
+  }
+  tbody td {
+    padding: 8px 20px;
+    border-bottom: 1px #eee solid;
+    font-size: 14px;
+  }
+}
+
+
+
+@media (max-width: 420px) {
+  .ex2-question {
+    margin: 10px 0;
+    padding: 20px 0;
+  }
+}
+
+
+

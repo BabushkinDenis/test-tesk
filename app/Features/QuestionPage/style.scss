@@ -1,0 +1,98 @@
+.poll, .questions {
+  margin: 40px auto;
+  max-width: 505px;
+  .input-text {
+    width: 100%;
+  }
+}
+
+@media (max-width: 420px) {
+  .poll {
+      margin: 0;
+      border: 0;
+  }
+}
+
+.poll-table {
+  border-collapse: collapse;
+  width: 100%;
+  
+  thead th {
+    text-align: left;
+    padding: 10px 20px;
+    border-bottom: 1px #ccc solid;
+    background-color: #eee;
+    font-size: 16px;
+  }
+
+  tbody th {
+    text-align: left;
+    padding: 8px 20px;
+    border-bottom: 1px #eee solid;
+    font-size: 14px;
+  }
+
+  tbody td {
+    padding: 8px 20px;
+    border-bottom: 1px #eee solid;
+    font-size: 14px;
+  }
+}
+
+.btn {
+  display: inline-block;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 300;
+  box-shadow: 0 1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);
+  transition: all .5s ease;
+  padding: .6rem 2.5rem;
+  line-height: 1.25;
+  text-align: center;
+  background: #f89b1c;
+  border: 0;
+  cursor: pointer;
+  &:hover {
+    box-shadow: none;
+    color: #fff;
+  }
+
+  &--plus {
+    font-size: 20px;
+    padding: 0 10px;
+  }
+
+  &--start {
+    font-size: 20px;
+    margin: 20px 0 0;
+  }
+  &[disabled] {
+    opacity: 0.5;
+  }
+}
+
+.q-table {
+  border-collapse: collapse;
+  width: 100%;
+  thead th {
+    text-align: left;
+    padding: 10px 20px;
+    border-bottom: 1px #ccc solid;
+    background-color: #eee;
+    font-size: 16px;
+  }
+  tbody th {
+    text-align: left;
+    padding: 8px 20px;
+    border-bottom: 1px #eee solid;
+    font-size: 14px;
+  }
+  tbody td {
+    padding: 8px 20px;
+    border-bottom: 1px #eee solid;
+    font-size: 14px;
+  }
+}
+
+
+
