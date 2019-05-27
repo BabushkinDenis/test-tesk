@@ -12,7 +12,7 @@ To start the test task you need
 - change access rights in file : /config/dbConfig.js to yor MySql Server
 - in root directory execute the command **npm install**
 - execute the command **npm run build**
-- start the server **npm run server**
+- start the server **npm run server** please sure that the port 3001 and 3002 are free
 - open your browser at **http://localhost:3001**
 
 ## Available Scripts

@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-one-expression-per-line */
 /* eslint-disable react/button-has-type */
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
@@ -59,7 +60,7 @@ class QuestionPage extends Component {
   render() {
     const { actions, questions, history } = this.props;
     const { question } = this.state;
-    console.log(this.props);
+
     return (
       <div className="page__content page__content--padding">
         <div className="poll">
@@ -94,9 +95,7 @@ class QuestionPage extends Component {
               ))}
               <tr>
                 <td className="poll-table__plus">
-                  <button className="btn btn--plus" onClick={() => this.addCase()}>
-                    +
-                  </button>
+                  <button className="btn btn--plus" onClick={() => this.addCase()}>+</button>
                 </td>
                 <td />
               </tr>

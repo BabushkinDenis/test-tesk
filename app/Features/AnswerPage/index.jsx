@@ -71,9 +71,7 @@ class UsersPage extends Component {
             <Fragment>
               <h1>{question.body}</h1>
               <div className="ex2-question">
-                <div className="ex2-question__label">
-                  Your name:
-                </div>
+                <div className="ex2-question__label">Your name:</div>
                 <div className="ex2-question__input">
                   <input
                     type="text"
