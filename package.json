@@ -46,7 +46,7 @@
     "morgan": "^1.9.1",
     "mysql": "^2.17.1",
     "mysql-utilities": "^1.1.0-alpha.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "optimize-css-assets-webpack-plugin": "5.0.1",
     "pnp-webpack-plugin": "1.2.1",
     "postcss-flexbugs-fixes": "4.1.0",
